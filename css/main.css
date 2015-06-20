@@ -1,0 +1,288 @@
+* {
+    border: 1px solid red !important;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    
+}
+
+* {
+	font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  font-size: 13px;
+  line-height: 18px;
+  margin: 0 auto;
+}
+
+.grid {
+	margin: 0 auto;
+	max-width: 1200px;
+	width: 100%;
+}
+
+.row {
+	width: 100%;
+	margin-bottom: 20px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+/* Column classes */
+.col-1 {
+	width: 8.33%;
+}
+
+.col-2 {
+	width: 16.66%;
+}
+
+.col-3 {
+	width: 25%;
+}
+
+.col-4 {
+	width: 33.33%;
+	padding: 0 10px;
+}
+
+.col-5 {
+	width: 41.66%;
+}
+
+.col-6 {
+	width: 50%;
+}
+
+.col-7 {
+	width: 58.33%;
+}
+
+.col-8 {
+	width: 66.66%;
+}
+
+.col-9 {
+	width: 75%;
+}
+
+.col-10 {
+	width: 83.33%;
+}
+
+.col-11 {
+	width: 91.66%;
+}
+
+.col-12 {
+	width: 100%;
+	padding: 0 10px;
+}
+
+/* Typography Styles */
+
+/* Typographic scale and rhythm setup by Gridlover: 
+http://www.gridlover.net/
+*/
+
+h1 {
+  font-size: 86px;
+  line-height: 90px;
+  margin-top: 36px;
+  margin-bottom: 18px;
+  font-weight: normal;
+}
+h2 {
+  font-size: 46px;
+  line-height: 54px;
+  margin-top: 36px;
+  margin-bottom: 18px;
+  font-weight: normal;
+}
+h3 {
+  font-size: 24px;
+  line-height: 36px;
+  margin-top: 18px;
+  margin-bottom: 18px;
+  font-weight: normal;
+}
+h4 {
+  font-size: 13px;
+  line-height: 18px;
+  margin-top: 18px;
+  margin-bottom: 18px;
+  font-weight: normal;
+}
+p, ul, ol, pre, table, blockquote {
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+
+h1.name {
+	color: #01579b;
+	max-width: 100%;
+}
+.last_name {
+	color: #e65100;
+}
+h2.feature_title {
+	color: #8c8c8c;
+	font-size: 36px;
+}
+
+/* Sanitation */
+hr {
+  border: 1px solid;
+  margin: -1px 0;
+}
+ul ul, ol ol, ul ol, ol ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+b, strong, em, small, code {
+  line-height: 1;
+}
+sup, sub {
+  vertical-align: baseline;
+  position: relative;
+  top: -0.4em;
+}
+sub {
+  top: 0.4em;
+}
+
+/* Image Styles */
+img {
+	max-width: 100%;
+	width: 100%;
+}
+img.logo {
+	max-width: 100px;
+	margin-left: 10px;
+	margin-top: 34px;
+}
+
+/* LAYOUT */
+.name_column {
+	text-align: right;
+}
+
+/* Helper Classes */
+.align_center {
+	text-align: center;	
+}
+
+.align_left {
+	text-align: left;	
+}
+
+.align_right {
+	text-align: right;	
+}
+
+/* Media Queries */
+ 
+@media only screen and (min-width : 320px) {
+	.logo_container {
+		width: 100%;
+		text-align: center;
+	}
+
+	.name_column {
+		width: 100%;
+		text-align: center;
+	}
+
+	h1.name {
+		font-size: 46px;
+		margin-top: 0px;
+	}
+
+	h2.feature_title {
+		font-size: 27px;
+		margin: 0;
+	}
+
+	img.logo {
+		margin: 0px;
+		max-width: 50px;
+	}
+
+	div.feature_col {
+		width: 100%;
+	}
+
+	div.title_container {
+		width: 100%;
+		text-align: center;
+	}
+}
+
+
+@media only screen and (min-width : 480px) {
+
+	div.feature_col {
+		width: 33.33%;
+	}
+
+}
+
+
+@media only screen and (min-width : 768px) {
+
+	.logo_container {
+		width: 16.66%;
+		text-align: left;
+	}
+
+	.name_column {
+		width: 83.33%;
+		text-align: right;
+	}
+
+	h1.name {
+		font-size: 86px;
+		margin-top: 36px;
+  		margin-bottom: 18px;
+	}
+
+	h2.feature_title {
+		font-size: 46px;
+		margin-top: 36px;
+  		margin-bottom: 18px;
+	}
+
+	img.logo {
+		max-width: 100px;
+		margin-left: 5px;
+		margin-top: 34px;
+	}
+
+	div.feature_col {
+		width: 33.33%;
+	}
+
+	div.title_container {
+		width: 100%;
+		text-align: left;
+	}
+
+}
+
+
+@media only screen and (min-width : 992px) {
+
+}
+
+
+@media only screen and (min-width : 1200px) {
+
+}
+
+
+
